@@ -1,0 +1,65 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 275px; /* Aumenta o espaço entre o título e os botões */
+}
+
+a {
+    display: block;
+    width: 200px; /* Largura do botão */
+    padding: 10px;
+    margin: 20px auto; /* Aumenta o espaço entre os botões */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+.start-button {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+.credits-button {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.back-button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto; /* Espaço maior abaixo do conteúdo */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #cc0000; /* Cor do fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de mudança de cor */
+}
+
+.back-button:hover {
+    background-color: #333; /* Cor do fundo do botão ao passar o mouse */
+}
+

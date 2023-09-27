@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style10.css">
+    <title>Enigma - Fase 10</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Bem-vindo à Fase 10 do Enigma</h1>
+        <img src="https://cdn.discordapp.com/attachments/1074424174086471843/1156614764156424292/95.jpg?ex=65159cf0&is=65144b70&hm=8854f09cef9c4c5aa2024f6d876e2efdf6b1659d57eb56dc610af3c4c6c5ecd6&" alt="Imagem" style="max-width: 100%; height: auto;">
+        <form id="password-form" onsubmit="checkPassword(event)">
+            <label for="password">Digite a senha:</label>
+            <input type="text" id="password" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="password-error" class="hidden">Senha incorreta. Tente novamente.</p>
+    </div>
+    <script src="script10.js"></script>
+</body>
+</html>

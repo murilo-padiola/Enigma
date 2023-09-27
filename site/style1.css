@@ -1,0 +1,78 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hidden-link {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000; /* Cor do texto do rótulo "Link:" */
+}
+
+.link-text {
+    color: #000; /* Cor do texto do link (preto) */
+    text-decoration: underline;
+}
+
+.link-text:hover {
+    color: #555; /* Cor do texto do link quando o mouse passa por cima */
+}
+
+#password-error {
+    color: #ff0000; /* Define a cor do texto de erro como vermelho */
+}
+
+/* Estilo para o formulário de senha */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 5px;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo para a mensagem de erro de senha */
+#password-error {
+    color: #ff0000;
+}
+
+/* Estilo para ocultar elementos com a classe "hidden" */
+.hidden {
+    display: none;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Enigma - Fase 6</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Bem-vindo à Fase 6 do Enigma</h1>
+        <audio controls>
+            <source src="https://cdn.discordapp.com/attachments/1074424174086471843/1156368989962911945/eofala.mp3?ex=6514b80b&is=6513668b&hm=a11a20600bdece0d97f5c2d9f3d449a1c0df920b05a0d28810a3beb1152fba94&" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <form id="password-form" onsubmit="checkPassword(event)">
+            <label for="password">Digite a senha:</label>
+            <input type="text" id="password" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="password-error" class="hidden">Senha incorreta. Tente novamente.</p>
+    </div>
+    <script src="script6.js"></script>
+</body>
+</html>

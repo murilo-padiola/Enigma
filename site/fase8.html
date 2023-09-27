@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style8.css">
+    <title>Enigma - Fase 8</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Bem-vindo à Fase 8 do Enigma</h1>
+        <img src="https://cdn.discordapp.com/attachments/1074424174086471843/1156382879937466418/Novo_Projeto.png?ex=6514c4fb&is=6513737b&hm=a4c6e91f283f2bd4226b00354d6e6b5fe9faaf340d6078097602382c1b0ab32b&" alt="Imagem" style="max-width: 100%; height: auto;">
+        <form id="password-form" onsubmit="checkPassword(event)">
+            <label for="password">Digite a senha:</label>
+            <input type="text" id="password" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="password-error" class="hidden">Senha incorreta. Tente novamente.</p>
+    </div>
+    <script src="script8.js"></script>
+</body>
+</html>

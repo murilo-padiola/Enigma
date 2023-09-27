@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style12.css">
+    <title>Enigma - Fase 12</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Bem-vindo à Fase 12 do Enigma</h1>
+        <div class="center-text">
+        </div>
+        <p class="hint">Ca Cl Co x Cr S y F P I Mg Mn K Se z</p>
+        <p class="hint">senha = xyz</p>
+        <p class="hint">BraEsc</p>
+        <form id="password-form" onsubmit="checkPassword(event)">
+            <label for="password">Digite a senha:</label>
+            <input type="text" id="password" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="password-error" class="hidden">Senha incorreta. Tente novamente.</p>
+    </div>
+    <script src="script12.js"></script>
+</body>
+</html>

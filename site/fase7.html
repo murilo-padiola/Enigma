@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style7.css">
+    <title>Enigma - Fase 7</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-text">Bem-vindo à Fase 7 do Enigma</h1>
+        <audio controls>
+            <source src="https://cdn.discordapp.com/attachments/1074424174086471843/1156373868185923584/2morse.mp3?ex=6514bc96&is=65136b16&hm=37a321aac909b80116c33fef9f091e6c4be0e331cbb6a3ee6681e161e88d25c6&" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <form id="password-form" onsubmit="checkPassword(event)">
+            <label for="password">Digite a senha:</label>
+            <input type="text" id="password" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="password-error" class="hidden">A chave e a palavra estão invertidas.</p>
+
+        <div style="margin-top: 5rem;"></div>
+        <p class="black-text">Blaise de Vigenère</p>
+    </div>
+    <script src="script7.js"></script>
+</body>
+</html>
